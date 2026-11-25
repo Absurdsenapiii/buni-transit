@@ -1,0 +1,14 @@
+{
+  "name": "buni-transit-arrivals",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Cloudflare Worker that holds the LTA DataMall key and serves bus arrivals to BUNI Transit.",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "whoami": "wrangler whoami"
+  },
+  "devDependencies": {
+    "wrangler": "^4.168.0"
+  }
+}

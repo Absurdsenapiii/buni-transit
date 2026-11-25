@@ -1,0 +1,6 @@
+# BUNI Transit arrivals proxy. Deploy: npx wrangler deploy (from this folder).
+# The DataMall key is a Worker secret (DATAMALL_KEY), set by the owner. It is never stored in this repo.
+name = "buni-transit-arrivals"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
