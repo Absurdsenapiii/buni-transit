@@ -1,0 +1,11 @@
+{
+  "name": "BUNI Transit",
+  "short_name": "BUNI Transit",
+  "description": "Singapore's public transport and weather data, live in 3D.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#030607",
+  "theme_color": "#030607",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
